@@ -13,7 +13,7 @@ export default function CallToAction() {
             { x: '-50%'}, 
             { duration: 30, ease: 'linear', repeat: Infinity}
         );
-    }, []);
+    });
 
     useEffect(() => {
         if (animation.current) {
